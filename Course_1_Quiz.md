@@ -14,3 +14,5 @@ Feedback: Correct! IR stands for Intermediate Representation, and contains not o
 - [ ] TensorFlow models require additional flags to specify subgraphs to use
 - [ ] TensorFlow models need to go through a special preprocessor script before model optimizer
 - [x] `None of the above`
+
+Feedback: Correct! By design, there is minimal change associated with going from one framework to another.
