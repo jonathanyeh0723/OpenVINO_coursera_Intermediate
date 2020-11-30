@@ -4,7 +4,7 @@
 
 #### 1. What is the acronym of the model format created by the model optimizer and used by the inference engine?
 
-Answer: `IR`
+`     IR     `
 
 Feedback: Correct! IR stands for Intermediate Representation, and contains not only a translated model but also an optimized model.
 
