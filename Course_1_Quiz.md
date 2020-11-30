@@ -8,9 +8,9 @@ Answer: `IR`
 
 Feedback: Correct! IR stands for Intermediate Representation, and contains not only a translated model but also an optimized model.
 
-#### Q2. What happens when you use the build-in function "any()" on a list?
+#### 2.	What is the difference between converting a TensorFlow* model and Caffe* model with model optimizer?
 
-- [ ] `The "any()" function will randomly return any item from the list.`
-- [x] `The "any()" function returns True if any item in the list evaluates to True. Otherwise, it returns False.`
-- [ ] `The "any()" function takes as arguments the list to check inside, and the item to check for. If "any" of the items in the list match the item to check for, the function returns True.`
-- [ ] `The "any()" function returns a Boolean value that answers the question "Are there any items in this list?"`
+- [ ] TensorFlow models do not need to be converted with model optimizer
+- [ ] TensorFlow models require additional flags to specify subgraphs to use
+- [ ] TensorFlow models need to go through a special preprocessor script before model optimizer
+- [x] `The "any()" function returns a Boolean value that answers the question "Are there any items in this list?"`
