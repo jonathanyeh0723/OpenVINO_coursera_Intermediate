@@ -1,13 +1,11 @@
-## Python Assessment
+## Course 1 Quiz
 
 ---
 
-#### Q1. What is an abstract class?
+#### 1.What is the acronym of the model format created by the model optimizer and used by the inference engine?
 
-- [ ] `An abstract class is the name for any class from which you can instantiate an object.`
-- [ ] `Abstract classes must be redefined any time an object is instantiated from them`
-- [ ] `Abstract classes must inherit from concrete classes.`
-- [x] `An abstract class exists only so that other "concrete" classes can inherit from the abstract class.`
+` IR `
+Feedback: Correct! IR stands for Intermediate Representation, and contains not only a translated model but also an optimized model.
 
 #### Q2. What happens when you use the build-in function "any()" on a list?
 
