@@ -2,9 +2,10 @@
 
 ---
 
-#### 1.What is the acronym of the model format created by the model optimizer and used by the inference engine?
+#### 1. What is the acronym of the model format created by the model optimizer and used by the inference engine?
 
-` IR `
+Answer: `IR`
+
 Feedback: Correct! IR stands for Intermediate Representation, and contains not only a translated model but also an optimized model.
 
 #### Q2. What happens when you use the build-in function "any()" on a list?
