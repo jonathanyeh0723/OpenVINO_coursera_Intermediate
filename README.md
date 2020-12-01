@@ -16,4 +16,4 @@ This repository briefly outlines the core concept of course subjected to, and in
 
   - A high-level walkthrough of OpenVINO workflow. View the block diagram as below.
   
-  ![workflow](./resource/openvino_course2_1.jpg)
+  ![workflow](./resources/openvino_course2_1.jpg)
