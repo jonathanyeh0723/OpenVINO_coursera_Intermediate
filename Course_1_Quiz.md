@@ -25,3 +25,13 @@ Feedback: Correct! By design, there is minimal change associated with going from
 - [x] `Never`
 
 Feedback: Correct! Once converted to IR, inference engine does not care what the original format was.
+
+
+#### 4.	Which model optimizer flag is used to specify the model to convert?
+
+- [ ] --input
+- [ ] --input_model
+- [ ] --model
+- [x] `None of the above`
+
+Feedback: Correct! Be careful with --input, because that is a valid flag that controls the shape of the input.
