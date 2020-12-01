@@ -8,4 +8,4 @@ This repository briefly outlines the core concept of course subjected to, and in
 ## Bullet Points
 - Introducing Intel® Distribution of OpenVINO: 
 
-To have a overview of OpenVINO toolkit, and recap its advantages including the support of common deep learning frameworks as well as capability to deploy to multiple hardware like GPU, VPU, and FPGA.
+  - To have a overview of OpenVINO toolkit, and recap its advantages including the support of common deep learning frameworks as well as capability to deploy to multiple hardware like GPU, VPU, and FPGA.
