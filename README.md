@@ -4,7 +4,7 @@ Following up with the previous one - [Introduction to Intel® Distribution of Op
 
 This tutorial consists of two courses. In the first course, we will focus on learning to use the tool. We cover the various libraries and tools that you need to run inference. In the second course, we focus on the actual deployment and the discussion of strategies for deployment application.
 
-Prerequisites (recommended): Python Programming, Computer Vision (OpenCV), Deep Learning.
+**Prerequisites (recommended): Python Programming, Computer Vision (OpenCV), Deep Learning.**
 
 ## Summary
 This repository briefly outlines the core concept of course subjected to, and includes the answer to course quizzes as well as lab practice for reference.
