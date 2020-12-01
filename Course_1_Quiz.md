@@ -16,3 +16,12 @@ Feedback: Correct! IR stands for Intermediate Representation, and contains not o
 - [x] `None of the above`
 
 Feedback: Correct! By design, there is minimal change associated with going from one framework to another.
+
+#### 3.	While using the inference engine, when do you need to specify the framework used in the original model?
+
+- [ ] When loading the network to IENetwork
+- [ ] When specifying the device to use for inference
+- [ ] When starting the inference with ExecutableNetwork
+- [x] `Never`
+
+Feedback: Correct! Once converted to IR, inference engine does not care what the original format was.
