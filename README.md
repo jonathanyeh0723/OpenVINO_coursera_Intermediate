@@ -15,3 +15,5 @@ This repository briefly outlines the core concept of course subjected to, and in
 - Workflow of Intel® Distribution of OpenVINO Toolkit Usages: 
 
   - A high-level walkthrough of OpenVINO workflow. View the block diagram as below.
+  
+  ![workflow](./resource/openvino_course2_1.jpg)
