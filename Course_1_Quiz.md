@@ -54,3 +54,21 @@ Feedback: Correct! Optimizations are enabled by default, so no need to specify a
 - [ ] [1, 127, 127, 3]
 
 Feedback: Correct! Shapes can't be undefined for inference.
+
+#### 7. Model optimizer can remove layers from
+
+- [ ] Only the start of the model
+- [ ] Only the end of the model
+- [x] `Both the start and the end of the model`
+- [ ] Anywhere. Start, end or the middle of the model
+
+Feedback: Correct! This can be useful if parts of the model was only there for training or processing certain datasets.
+
+#### 8. Which devices can TensorFlow* offloading use? Select all that apply.
+
+- [x] `CPU`
+- [ ] GPU
+- [ ] VPU
+- [ ] FPGA
+
+Feedback: Correct! If you need acceleration for these subgraphs, you will have to write custom layer extensions.
