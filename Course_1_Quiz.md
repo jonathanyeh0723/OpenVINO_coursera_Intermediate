@@ -35,3 +35,12 @@ Feedback: Correct! Once converted to IR, inference engine does not care what the
 - [ ] None of the above
 
 Feedback: Correct! Be careful with --input, because that is a valid flag that controls the shape of the input.
+
+#### 5.	What model optimizer flags do you need to set for enabling model-level optimizations?
+
+- [ ] --enable
+- [ ] --enable_optimizations
+- [ ] --model_optimizations
+- [x] `No flag is needed`
+
+Feedback: Correct! Optimizations are enabled by default, so no need to specify anything.
