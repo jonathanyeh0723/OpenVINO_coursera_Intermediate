@@ -44,3 +44,13 @@ Feedback: Correct! Be careful with --input, because that is a valid flag that co
 - [x] `No flag is needed`
 
 Feedback: Correct! Optimizations are enabled by default, so no need to specify anything.
+
+
+#### 6. The following are input layer shapes of models we want to convert. Which shapes require us to specify the input_shape for model optimizer? Select all that apply.
+
+- [ ] [1, 3, 127, 127]
+- [ ] --enable_optimizations
+- [ ] --model_optimizations
+- [x] `No flag is needed`
+
+Feedback: Correct! Optimizations are enabled by default, so no need to specify anything.
