@@ -49,8 +49,8 @@ Feedback: Correct! Optimizations are enabled by default, so no need to specify a
 #### 6. The following are input layer shapes of models we want to convert. Which shapes require us to specify the input_shape for model optimizer? Select all that apply.
 
 - [ ] [1, 3, 127, 127]
-- [ ] --enable_optimizations
-- [ ] --model_optimizations
-- [x] `No flag is needed`
+- [x] `[-1, 3, 127, 127]`
+- [ ] [10, 3, 127, 127]
+- [ ] [1, 127, 127, 3]
 
-Feedback: Correct! Optimizations are enabled by default, so no need to specify anything.
+Feedback: Correct! Shapes can't be undefined for inference.
