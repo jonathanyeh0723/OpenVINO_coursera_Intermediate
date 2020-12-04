@@ -72,3 +72,12 @@ Feedback: Correct! This can be useful if parts of the model was only there for t
 - [ ] FPGA
 
 Feedback: Correct! If you need acceleration for these subgraphs, you will have to write custom layer extensions.
+
+#### 9. If your model has a custom layer, you have to write an extension for inference engine.
+
+- [x] `True`
+- [ ] False
+
+Feedback: Correct! Extensions for inference engine is only required if the layer in question is not supported in the IR catalog. Make sure you check first so that you do not do unnecessarily work.
+
+
