@@ -80,4 +80,11 @@ Feedback: Correct! If you need acceleration for these subgraphs, you will have t
 
 Feedback: Correct! Extensions for inference engine is only required if the layer in question is not supported in the IR catalog. Make sure you check first so that you do not do unnecessarily work.
 
+#### 10. The inference engine extensions are loaded by:
 
+- [ ] IENetwork
+- [ ] IENetlayer
+- [x] `IECore`
+- [ ] ExecutableNetwork
+
+Feedback: Correct! This is the class that handles the interfaces to the devices, and extensions are generally specific to the targeted device.
