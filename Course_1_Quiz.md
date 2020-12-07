@@ -88,3 +88,19 @@ Feedback: Correct! Extensions for inference engine is only required if the layer
 - [ ] ExecutableNetwork
 
 Feedback: Correct! This is the class that handles the interfaces to the devices, and extensions are generally specific to the targeted device.
+
+#### 11. The query_network method of IECore returns:
+
+- [x] ` All the network layers supported by the device specified`
+- [ ] All the network layers unsupported by the device specified
+- [ ] All the input shapes of the network layers
+- [ ] All the output shapes of the network layers
+
+Feedback: Correct! If there are layers that are not supported, you will either need to add an extension or add a different device to the mix. We’ll discuss the latter in a later video.
+
+#### 12. The input images must always reshaped to be NCHW.
+
+- [ ] True
+- [ ] `False`
+
+Feedback: Correct! NCHW format is used internally by inference engine, but the input is whatever the network used. If the network used NHWC then the input is NHWC, and inference engine will do its own internal conversion to NCHW.
