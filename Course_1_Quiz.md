@@ -101,6 +101,6 @@ Feedback: Correct! If there are layers that are not supported, you will either n
 #### 12. The input images must always reshaped to be NCHW.
 
 - [ ] True
-- [ ] `False`
+- [x] `False`
 
 Feedback: Correct! NCHW format is used internally by inference engine, but the input is whatever the network used. If the network used NHWC then the input is NHWC, and inference engine will do its own internal conversion to NCHW.
