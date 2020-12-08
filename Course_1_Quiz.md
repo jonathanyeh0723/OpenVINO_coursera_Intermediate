@@ -104,3 +104,19 @@ Feedback: Correct! If there are layers that are not supported, you will either n
 - [x] `False`
 
 Feedback: Correct! NCHW format is used internally by inference engine, but the input is whatever the network used. If the network used NHWC then the input is NHWC, and inference engine will do its own internal conversion to NCHW.
+
+#### 13. If you plan to run inference on only the GPU,we would want to allow the CPU to continue processing while inference runs on GPU. So to start the inference, we should use:
+
+- [x] `The infer() method of ExecutableNetwork`
+- [ ] The start_async() method of ExecutableNetwork
+
+Feedback: Correct! Using start_async() when using GPU will let you continue processing with the CPU.
+
+#### 14. The argument “inputs” for the infer() method should be set to:
+
+- [ ] A Numpy array containg the images
+- [ ] A list of Numpy arrays, each containing an image
+- [x] `A dictionary with input layer name as key, and images as values`
+- [ ] IENetLayer object found in the inputs attribute of IENetwork
+
+Feedback: Correct! The dictionary is used to specify all the inputs of the network.
