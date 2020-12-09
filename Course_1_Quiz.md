@@ -120,3 +120,12 @@ Feedback: Correct! Using start_async() when using GPU will let you continue proc
 - [ ] IENetLayer object found in the inputs attribute of IENetwork
 
 Feedback: Correct! The dictionary is used to specify all the inputs of the network.
+
+#### 15. The wait method for inferRequest object returns:
+
+- [ ] Numpy array containing the result of inference
+- [ ] A list of Numpy arrays, each containing an image
+- [ ] A dictionary with output layer name as key, and results in numpy array as values
+- [x] `Status (or exit) code for the inference`
+
+Feedback: Correct! The wait method will return some status code regardless of whether the inference was successful, so always check the code and make sure it is 0 for success.
