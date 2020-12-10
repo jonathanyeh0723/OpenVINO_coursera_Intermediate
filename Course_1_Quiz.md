@@ -129,3 +129,12 @@ Feedback: Correct! The dictionary is used to specify all the inputs of the netwo
 - [x] `Status (or exit) code for the inference`
 
 Feedback: Correct! The wait method will return some status code regardless of whether the inference was successful, so always check the code and make sure it is 0 for success.
+
+#### 16. To have N asynchronous inference requests, where N is greater than 1, you need to: (select all that apply)
+
+- [ ] Create IENetwork with batch size equal to N
+- [ ] Set the inputs argument of start_async to a list of dictionaries
+- [ ] Set num_requests argument to N when creating IECore object
+- [x] `Set num_requests argument to N in load_network() method of IECore object`
+
+Feedback: Correct! The only thing you need to set to change the number of possible requests is the num_requests argument. But you will need to specify the slot when running start_async.
