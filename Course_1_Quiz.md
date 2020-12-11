@@ -138,3 +138,11 @@ Feedback: Correct! The wait method will return some status code regardless of wh
 - [x] `Set num_requests argument to N in load_network() method of IECore object`
 
 Feedback: Correct! The only thing you need to set to change the number of possible requests is the num_requests argument. But you will need to specify the slot when running start_async.
+
+
+#### 17. You have started multiple asynchronous inferences without saving the inferRequest returned by start_async method. What is the attribute of ExecutableNetwork where you can find the inferRequest objects?
+
+`requests`
+
+Feedback: Correct! The requests will be an array of length equal to what you set for num_requests. Each element can be handled independently from each other.
+
