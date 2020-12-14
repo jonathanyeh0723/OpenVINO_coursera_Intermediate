@@ -145,3 +145,9 @@ Feedback: Correct! The only thing you need to set to change the number of possib
 
 Feedback: Correct! The requests will be an array of length equal to what you set for num_requests. Each element can be handled independently from each other.
 
+#### 18. Lab question: At 1% confidence, how many vehicles did the model “vehicle-detection-adas-0002” detect on the CPU device?
+
+`14`
+
+Feedback: Correct! At such low confidence levels, we start seeing "ghosts"
+
