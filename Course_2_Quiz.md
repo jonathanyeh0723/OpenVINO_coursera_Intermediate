@@ -5,7 +5,7 @@
 #### 1. The course recommends applying optimization techniques as much as possible during validation so that you can get as accurate of a comparison as possible. True or False?
 
 - [ ] True
-- `[x] False`
+- [x] `False`
 
 Feedback: Correct! Optimization is a time consuming process, and can be impractical to do this for every system you want to try.
 
