@@ -11,9 +11,9 @@ Feedback: Correct! Optimization is a time consuming process, and can be impracti
 
 #### 2. Intel® VPUs are:
 
-- [ ] TensorFlow models do not need to be converted with model optimizer
-- [ ] TensorFlow models require additional flags to specify subgraphs to use
-- [ ] TensorFlow models need to go through a special preprocessor script before model optimizer
-- [x] `None of the above`
+- [ ] general purpose processor for all workloads
+- [ ] onchip accelerator for image processing
+- [x] `specialized external accelerator for vision processing`
+- [ ] external processors that are programmable with bitstreams
 
 Feedback: Correct! VPU stands for Vision Processing Units, and are, as the name suggests, built for computer vision. The VPUs also tend to have a low power cost for the computer power.
