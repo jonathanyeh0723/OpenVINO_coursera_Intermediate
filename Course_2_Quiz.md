@@ -23,3 +23,12 @@ Feedback: Correct! VPU stands for Vision Processing Units, and are, as the name 
 `HETERO:CPU,GPU`
 
 Feedback: Correct! In general, this string is the only thing you need to change in order to change the device to use for inference.
+
+#### 4.	Where can you find the information on which device handles each layer?
+
+- [x] `Dictionary returned by query_network method of IECore object`
+- [ ] By looking at the “device” attribute for IELayer objects in layers attribute of IENetwork
+- [ ] Dictionary from get_devices method of ExecutableNetwork
+- [ ] From the “device” attribute found in IENetlayer objects from ExecutableNetwork
+
+Feedback: Correct! The dictionary has the default mapping created by the developers.
