@@ -32,3 +32,19 @@ Feedback: Correct! In general, this string is the only thing you need to change 
 - [ ] From the “device” attribute found in IENetlayer objects from ExecutableNetwork
 
 Feedback: Correct! The dictionary has the default mapping created by the developers.
+
+
+#### 5.	What device_name should you use for multi-device mode with CPU and a single GPU, with GPU  prioritized over CPU?
+
+`MULTI:GPU,CPU`
+
+Feedback: Correct! The device that appears earlier in the list is preferentially used.
+
+#### 6.	How many requests should you use for multi-device mode?
+
+- [ ] Only one request
+- [ ] As many requests as there are devices
+- [ ] Number found by calling optimal_number_of_requests()
+- [x] `Number found in the config parameter OPTIMAL_NUMBER_OF_REQUESTS for ExecutableNetwork`
+
+Feedback: Correct! The optimal number of requests can be far larger than the number of devices, so always check this value for maximum performance.
