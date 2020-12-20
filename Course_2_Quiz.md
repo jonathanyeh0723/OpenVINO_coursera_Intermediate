@@ -48,3 +48,13 @@ Feedback: Correct! The device that appears earlier in the list is preferentially
 - [x] `Number found in the config parameter OPTIMAL_NUMBER_OF_REQUESTS for ExecutableNetwork`
 
 Feedback: Correct! The optimal number of requests can be far larger than the number of devices, so always check this value for maximum performance.
+
+
+#### 7. Suppose that you ran a benchmark to measure hybrid CPU and VPU inference. You found that preprocessing is taking longer than the inference. Which of the following is a good candidate for the next system to test? (Assume all else being equal)
+
+- [ ] System with an additional VPU card
+- [ ] System with a FPGA card
+- [x] `System with a higher performance CPU`
+- [ ] System with a higher power GPU
+
+Feedback: Correct! CPUs typically handle preprocessing, so getting a higher performance CPU is the best bet in this situation.
