@@ -58,3 +58,12 @@ Feedback: Correct! The optimal number of requests can be far larger than the num
 - [ ] System with a higher power GPU
 
 Feedback: Correct! CPUs typically handle preprocessing, so getting a higher performance CPU is the best bet in this situation.
+
+#### 8. To enable performance counters:
+
+- [ ] Set perf_count attribute of IECore to True
+- [ ] Set perf_count attribute of ExecutableNetwork to True
+- [x] `Set the PERF_COUNT config to YES in load_network method of IECore`
+- [ ] Set the PERF_COUNT config to YES in the IECore constructor
+
+Feedback: Correct! If you are using the heterogeneous mode, performance counter can be really helpful in determining what the best devices is for each layer.
