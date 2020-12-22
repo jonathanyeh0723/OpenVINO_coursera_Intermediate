@@ -67,3 +67,5 @@ Feedback: Correct! CPUs typically handle preprocessing, so getting a higher perf
 - [ ] Set the PERF_COUNT config to YES in the IECore constructor
 
 Feedback: Correct! If you are using the heterogeneous mode, performance counter can be really helpful in determining what the best devices is for each layer.
+
+#### 9. Which of the following can limit the lowest precision level? Select all that apply.
