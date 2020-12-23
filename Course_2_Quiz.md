@@ -69,3 +69,9 @@ Feedback: Correct! CPUs typically handle preprocessing, so getting a higher perf
 Feedback: Correct! If you are using the heterogeneous mode, performance counter can be really helpful in determining what the best devices is for each layer.
 
 #### 9. Which of the following can limit the lowest precision level? Select all that apply.
+
+- [x] `The devices used in the inference`
+
+Feedback: Correct! Some devices will support half precision computation, but others may only support float
+
+- [ ] The precision level used in the original model
