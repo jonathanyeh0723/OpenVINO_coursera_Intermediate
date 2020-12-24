@@ -75,3 +75,9 @@ Feedback: Correct! If you are using the heterogeneous mode, performance counter 
 Feedback: Correct! Some devices will support half precision computation, but others may only support float
 
 - [ ] The precision level used in the original model
+
+- [x] `Accuracy requirement for the application`
+
+Feedback: Correct! Because lower precision means higher compute performance, it is usually a good idea to use the lowest precision that these constraints allow for
+
+- [ ] The framework used in the original model
