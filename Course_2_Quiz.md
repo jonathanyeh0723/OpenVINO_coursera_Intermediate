@@ -81,3 +81,9 @@ Feedback: Correct! Some devices will support half precision computation, but oth
 Feedback: Correct! Because lower precision means higher compute performance, it is usually a good idea to use the lowest precision that these constraints allow for
 
 - [ ] The framework used in the original model
+
+#### 10. What attribute of IENetLayer should you set to change the device that handles the layer?
+
+`affinity`
+
+Feedback: Correct! Remember to set this for every layer in the network. Use query_network to get the reference for default values for layers that aren’t of interest.
