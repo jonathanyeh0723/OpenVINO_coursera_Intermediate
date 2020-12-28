@@ -87,3 +87,10 @@ Feedback: Correct! Because lower precision means higher compute performance, it 
 `affinity`
 
 Feedback: Correct! Remember to set this for every layer in the network. Use query_network to get the reference for default values for layers that aren’t of interest.
+
+#### 11. Using asynchronous mode to run inference in parallel with preprocessing has no benefit if you are only using CPU. True or False?
+
+- [ ] True
+- [x] `False`
+
+Feedback: Correct! Most CPUs will get some benefit, because most CPUs have multiple cores.
