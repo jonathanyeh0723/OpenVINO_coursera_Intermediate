@@ -94,3 +94,5 @@ Feedback: Correct! Remember to set this for every layer in the network. Use quer
 - [x] `False`
 
 Feedback: Correct! Most CPUs will get some benefit, because most CPUs have multiple cores.
+
+#### 12. Suppose you want to mask preprocessing and postprocessing time with inference time while using a single request slot. Starting at the wait function, what is the set of operations for handling starting i-th inference? Ignore edge cases.
