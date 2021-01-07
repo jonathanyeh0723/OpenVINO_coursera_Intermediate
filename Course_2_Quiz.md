@@ -96,3 +96,14 @@ Feedback: Correct! Remember to set this for every layer in the network. Use quer
 Feedback: Correct! Most CPUs will get some benefit, because most CPUs have multiple cores.
 
 #### 12. Suppose you want to mask preprocessing and postprocessing time with inference time while using a single request slot. Starting at the wait function, what is the set of operations for handling starting i-th inference? Ignore edge cases.
+
+
+
+#### 13. Which of the following methods returns the status code for the inference?
+
+- [ ] get_status() method for the InferenceRequest object
+- [x] `wait() method for InferenceRequest object`
+- [ ] get_status() method for IECore object
+- [ ] wait() method for IECore object
+
+Feedback: Correct! The wait() method is per inference request. So if you have multiple requests, using timeout argument of wait() lets check every request.
