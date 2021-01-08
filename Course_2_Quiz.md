@@ -107,3 +107,12 @@ Feedback: Correct! Most CPUs will get some benefit, because most CPUs have multi
 - [ ] wait() method for IECore object
 
 Feedback: Correct! The wait() method is per inference request. So if you have multiple requests, using timeout argument of wait() lets check every request.
+
+#### 14. Which inference status codes should you handle in your code?
+
+- [ ] only 0
+- [ ] only -9
+- [ ] only -9 and -11
+- [ ] every status code
+
+Feedback: Correct! 
