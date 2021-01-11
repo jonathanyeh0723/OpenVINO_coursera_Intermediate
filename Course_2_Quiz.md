@@ -118,3 +118,8 @@ Feedback: Correct! The wait() method is per inference request. So if you have mu
 Feedback: Correct! 
 
 #### 15. Imagine that you have an application that handles video streams from a variable number of devices. Which of the following implementations are generally NOT a good fit for this scenario. Select all that apply.
+
+- [ ] xxx
+- [ ] 
+- [ ] 
+- [ ] 
