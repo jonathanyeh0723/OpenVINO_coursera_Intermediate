@@ -124,4 +124,8 @@ Feedback: Correct!
 - [ ] 
 - [ ] 
 
-#### 16.
+#### 16. Using Python* multithreading library is NOT recommended if a CPU is used for inference.  True or False? 
+
+  
+
+
