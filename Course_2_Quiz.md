@@ -128,6 +128,11 @@ Feedback: Correct!
 
 #### 17. The callback function is set by calling the set_completion_callback() method of:
 
+- [ ] xxx
+- [ ] 
+- [ ] 
+- [ ] 
+
   
 
 
