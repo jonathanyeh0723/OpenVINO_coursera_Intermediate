@@ -133,7 +133,7 @@ Feedback: Correct!
 - [ ] 
 - [ ] 
 
-#### 18.
+#### 18. If you call the wait() method for an inference that has a callback, the callback is called before the wait method returns. True or False?
 
 - [ ] xxx
 - [ ] 
