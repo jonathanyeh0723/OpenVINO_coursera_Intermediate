@@ -141,15 +141,14 @@ Feedback: Correct!
 - [ ] 
 
  
-#### 19. 
+#### 19. Lab question: Which device performed the best (lowest time) in the benchmark workload for exercise-2?
 
 - [ ] xxx
 - [ ] 
 - [ ] 
-- [ ] 
- 
-#### 20. 
 
-- [ ] xxx
-- [ ] 
+Feedback: Correct! For this particular workload, FPGA seems to perform the best.
+
+#### 20. Lab Question: What is the average number of detected vehicles in the video?
+
 
