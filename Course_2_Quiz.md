@@ -151,6 +151,7 @@ Feedback: Correct! For this particular workload, FPGA seems to perform the best.
 
 #### 20. Lab Question: What is the average number of detected vehicles in the video?
 
+Answer: 
 
 
 
