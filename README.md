@@ -20,4 +20,7 @@ This repository briefly outlines the core concept of course subjected to, and in
   
   ![workflow](./resources/openvino_course2_1.jpg)
   
+## 
+xxx
+  
 
